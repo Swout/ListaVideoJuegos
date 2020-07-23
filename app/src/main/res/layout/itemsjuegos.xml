@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
 
     <ImageView
         android:id="@+id/fotoImageView"
@@ -9,7 +11,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        ></ImageView>
+        tools:ignore="ContentDescription" />
+
     <TextView
         android:id="@+id/nombretextview"
         android:gravity="center_horizontal"
@@ -17,5 +20,5 @@
         android:textAllCaps="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        ></TextView>
+        tools:ignore="HardcodedText" />
 </LinearLayout>
