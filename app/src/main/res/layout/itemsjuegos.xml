@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/fotoImageView"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        ></ImageView>
+    <TextView
+        android:id="@+id/nombretextview"
+        android:gravity="center_horizontal"
+        android:text="Lista de Video Juegos"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+</LinearLayout>
